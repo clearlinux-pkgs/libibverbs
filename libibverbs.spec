@@ -4,7 +4,7 @@
 #
 Name     : libibverbs
 Version  : 1.2.0
-Release  : 2
+Release  : 3
 URL      : https://www.openfabrics.org/downloads/verbs/libibverbs-1.2.0.tar.gz
 Source0  : https://www.openfabrics.org/downloads/verbs/libibverbs-1.2.0.tar.gz
 Summary  : A library for direct userspace use of RDMA (InfiniBand/iWARP) hardware
