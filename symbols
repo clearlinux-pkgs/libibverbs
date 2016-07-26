@@ -5,16 +5,20 @@ libibverbs.so.1:ibv_ack_cq_events
 libibverbs.so.1:ibv_alloc_pd
 libibverbs.so.1:ibv_attach_mcast
 libibverbs.so.1:ibv_close_device
+libibverbs.so.1:ibv_cmd_alloc_mw
 libibverbs.so.1:ibv_cmd_alloc_pd
 libibverbs.so.1:ibv_cmd_attach_mcast
 libibverbs.so.1:ibv_cmd_close_xrcd
 libibverbs.so.1:ibv_cmd_create_ah
 libibverbs.so.1:ibv_cmd_create_cq
+libibverbs.so.1:ibv_cmd_create_cq_ex
 libibverbs.so.1:ibv_cmd_create_flow
 libibverbs.so.1:ibv_cmd_create_qp
 libibverbs.so.1:ibv_cmd_create_qp_ex
+libibverbs.so.1:ibv_cmd_create_qp_ex2
 libibverbs.so.1:ibv_cmd_create_srq
 libibverbs.so.1:ibv_cmd_create_srq_ex
+libibverbs.so.1:ibv_cmd_dealloc_mw
 libibverbs.so.1:ibv_cmd_dealloc_pd
 libibverbs.so.1:ibv_cmd_dereg_mr
 libibverbs.so.1:ibv_cmd_destroy_ah
@@ -39,6 +43,7 @@ libibverbs.so.1:ibv_cmd_query_qp
 libibverbs.so.1:ibv_cmd_query_srq
 libibverbs.so.1:ibv_cmd_reg_mr
 libibverbs.so.1:ibv_cmd_req_notify_cq
+libibverbs.so.1:ibv_cmd_rereg_mr
 libibverbs.so.1:ibv_cmd_resize_cq
 libibverbs.so.1:ibv_copy_ah_attr_from_kern
 libibverbs.so.1:ibv_copy_path_rec_from_kern
@@ -86,6 +91,7 @@ libibverbs.so.1:ibv_rate_to_mult
 libibverbs.so.1:ibv_read_sysfs_file
 libibverbs.so.1:ibv_reg_mr
 libibverbs.so.1:ibv_register_driver
+libibverbs.so.1:ibv_rereg_mr
 libibverbs.so.1:ibv_resize_cq
 libibverbs.so.1:ibv_resolve_eth_l2_from_gid
 libibverbs.so.1:ibv_wc_status_str
